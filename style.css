@@ -1,5 +1,18 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 
+@media (max-width: 600px) {
+  .gallery-container {
+    height: auto; /* Allow gallery to expand vertically */
+  }
+  
+  .gallery-container img {
+    display: block; /* Make photos stack vertically */
+    width: 100%; /* Adjust to fill the container width */
+    margin-right: 0; /* Remove spacing between photos */
+    margin-bottom: 10px; /* Add vertical spacing between photos */
+  }
+}
+
 html {
   height: 100%;
 }
@@ -9,7 +22,7 @@ body {
   font: normal 16px/1.25 'Open Sans';
   min-height: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -25,7 +38,7 @@ a {
 .gallery {
   list-style-type: none;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .gallery li {
   float: left;
