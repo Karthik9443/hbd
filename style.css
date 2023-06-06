@@ -41,9 +41,6 @@ a {
   overflow-x: hidden;
 }
 .gallery li {
-  display: flex;
-  flex-direction: column; /* Arrange images vertically */
-  align-items: center; /* Center align the images horizontally */
   float: left;
   height: 100%;
   width: 400px;
