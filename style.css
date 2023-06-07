@@ -201,7 +201,7 @@ a {
   position: relative;
   color: #3498DB;
   font: normal 30px/1.25 'Open Sans';
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .gallery .content h3:after {
   content: '';
