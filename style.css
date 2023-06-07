@@ -3,7 +3,7 @@
 @media (max-width: 100%) {
   .gallery-container {
     height: auto;
-    width: 100%;
+    width: 100vh;
   }
   
   .gallery-container img {
