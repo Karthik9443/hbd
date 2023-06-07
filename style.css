@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   .gallery-container {
     height: auto;
   }
