@@ -55,8 +55,7 @@ a {
 .gallery li {
   float: bottom;
   height: 100%;
-  width: 100%;
-  object-fit: cover;
+  width: 400px;
   background: #2E4053;
 }
 
