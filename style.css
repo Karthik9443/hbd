@@ -8,8 +8,10 @@
   .gallery-container img {
     display: block;
     width: 100%;
-    margin-right: 0;
+    height: 100%;
+    object-fit: cover;
     margin-bottom: 10px;
+    overflow: hidden;
   }
 }
 
