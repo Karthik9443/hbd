@@ -11,13 +11,18 @@ $(document).ready(function() {
         ["#ffd200", "#b06c00"]
     ];
 
-window.onload = function() {
-  var button = document.getElementById("playButton");
-  button.addEventListener("click", function() {
-    var audio = document.getElementById("myAudio");
-    audio.play();
-  });
-};
+// Request permission to play the audio
+navigator.mediaDevices.getUserMedia({audio: true}).then(function(stream) {
+
+  // Create an audio element
+  var audio = document.createElement('audio');
+
+  // Set the audio source
+  audio.src = 'Joel_Adams_-_Please_Dont_Go_Lyric_(getmp3.pro).mp3';
+
+  // Play the audio
+  audio.play();
+});
 
     function Vector2(_x, _y) {
         this.x = _x, this.y = _y;
