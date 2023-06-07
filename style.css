@@ -52,7 +52,7 @@ a {
 .gallery li {
   float: bottom;
   height: 100%;
-  width: auto;
+  width: 900px;
   background: #2E4053;
 }
 
