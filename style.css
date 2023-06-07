@@ -48,20 +48,17 @@ a {
 .gallery {
   list-style-type: none;
   height: 100%;
-  width: 600px;
   overflow-y: scroll;
 }
 
 .gallery li {
   float: bottom;
   height: 100%;
-  width: 100%;
   background: #2E4053;
 }
 
 .gallery .flip {
   height: 100%;
-  width: 100%;
   position: relative;
   transform-style: preserve-3d;
   perspective: 2000px;
