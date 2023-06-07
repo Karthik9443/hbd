@@ -19,7 +19,7 @@ navigator.mediaDevices.getUserMedia({audio: true}).then(function(stream) {
 
   // Set the audio source
   audio.src = 'Joel_Adams_-_Please_Dont_Go_Lyric_(getmp3.pro).mp3';
-playButton.style.fontSize = "30px" ;
+playButton.style.fontSize = "60px" ;
 
   // Play the audio
   audio.play();
