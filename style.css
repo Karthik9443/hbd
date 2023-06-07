@@ -46,11 +46,11 @@ a {
 .gallery {
   list-style-type: none;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .gallery li {
-  float: left;
+  float: bottom;
   height: 100%;
   width: 400px;
   background: #2E4053;
