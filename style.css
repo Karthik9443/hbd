@@ -19,7 +19,7 @@ html {
   align-items: center;
   position: relative;
   height: 100%;
-overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
   font: normal 16px/1.25 'Open Sans', sans-serif;
   min-height: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 * {
@@ -46,7 +46,7 @@ a {
 .gallery {
   list-style-type: none;
   height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .gallery li {
