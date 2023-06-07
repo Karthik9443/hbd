@@ -52,13 +52,11 @@ a {
 .gallery li {
   float: bottom;
   height: 100%;
-  width: 400px;
   background: #2E4053;
 }
 
 .gallery .flip {
   height: 100%;
-  width: 100%;
   position: relative;
   transform-style: preserve-3d;
   perspective: 2000px;
