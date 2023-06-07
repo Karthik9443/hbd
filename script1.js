@@ -11,6 +11,14 @@ $(document).ready(function() {
         ["#ffd200", "#b06c00"]
     ];
 
+window.onload = function() {
+  var button = document.getElementById("playButton");
+  button.addEventListener("click", function() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  });
+};
+
     function Vector2(_x, _y) {
         this.x = _x, this.y = _y;
         this.Length = function() {
