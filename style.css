@@ -264,9 +264,11 @@ overflow-x: hidden;
 
 
 #player {
-  position: relative;
+  float: bottom;
   height: 100%;
-  z-index: 3;
+  width: 900px;
+  background: #2E4053;
+overflow-x: hidden;
 }
 
 #player-track {
