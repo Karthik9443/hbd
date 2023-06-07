@@ -18,13 +18,8 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 50%;
   height: 100%;
-  
-  font-family: 'Arvo', monospace;
-  
-  @supports(display: grid) {
-    display: block;
+overflow-y: hidden;
 }
 
 body {
