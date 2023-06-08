@@ -10,7 +10,37 @@
 </head>
 <body>
  
-<button id="playButton" class="smallPlayButton">Play</button>
+<title>Play ME!!!</title>
+  <style>
+    .music-player {
+      text-align: center;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Your website content goes here -->
+
+  <div class="music-player">
+    <audio id="audio-player" controls>
+      <source src="shallow.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script>
+    const audioPlayer = document.getElementById('audio-player');
+    audioPlayer.autoplay = true;  // Enable autoplay
+
+    // Example: Loop the audio
+    audioPlayer.addEventListener('ended', () => {
+      audioPlayer.currentTime = 0;  // Restart the audio
+      audioPlayer.play();
+    });
+  </script>
+
+</html>
 
 <!-- partial:index.partial.html -->
 <!--images from http://haryarti.deviantart.com/gallery/-->
@@ -121,37 +151,6 @@ function makePhoneCall() {
 
 </body>
 
-<title>Play ME!!!</title>
-  <style>
-    .music-player {
-      text-align: center;
-      padding: 20px;
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
-<body>
-  
-  <!-- Your website content goes here -->
-
-  <div class="music-player">
-    <audio id="audio-player" controls>
-      <source src="shallow.mp3" type="audio/mpeg">
-    </audio>
-  </div>
-
-  <script>
-    const audioPlayer = document.getElementById('audio-player');
-    audioPlayer.autoplay = true;  // Enable autoplay
-
-    // Example: Loop the audio
-    audioPlayer.addEventListener('ended', () => {
-      audioPlayer.currentTime = 0;  // Restart the audio
-      audioPlayer.play();
-    });
-  </script>
-
-</html>
 
     </li>
 
@@ -173,17 +172,7 @@ function makePhoneCall() {
         audio.play();
       });
     </script>
-<script>
 
-// Create an audio element
-var audio = document.createElement('audio');
-
-// Set the audio source
-audio.src = 'Joel_Adams_-_Please_Dont_Go_Lyric_(getmp3.pro).mp3';
-
-// Play the audio automatically
-audio.play();
-</script>
   </body>
 
 </body>
