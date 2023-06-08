@@ -10,73 +10,7 @@
 </head>
 
 </html>
-<li>
-<body>
- 
-<title>Play ME!!!</title>
-  <style>
-.music-player {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100px;
-      text-align: center;
-      padding: 50px 60px;
-      background-color: #f2f2f2;
-      z-index: 999;
-   
-    }
 
-    .music-player.hidden {
-      top: -100px; /* Adjust the value to completely hide the music player */
-    }
-
-    .music-player audio {
-      width: 50%;
-    }
-
-    .container {
-      margin-top: 80px; /* Adjust the margin top value based on the height of the music player */
-    }
-  </style>
-</head>
-
-
-<body>
-  
-  <!-- Your website content goes here -->
-
-  <div class="music-player">
-    <audio id="audio-player" controls>
-      <source src="shallow.mp3" type="audio/mpeg">
-    </audio>
-  </div>
-
-  <script>
-    const audioPlayer = document.getElementById('audio-player');
-    audioPlayer.autoplay = true;  // Enable autoplay
-
-    // Example: Loop the audio
-    audioPlayer.addEventListener('ended', () => {
-      audioPlayer.currentTime = 0;  // Restart the audio
-      audioPlayer.play();
-    });
-  </script>
-<body>
-<!-- partial:index.partial.html -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
-<div id="confetti"></div>
-<!-- partial -->
-  <script  src="./script1.js"></script>
-<script>
-      window.addEventListener('DOMContentLoaded', (event) => {
-        const audio = document.getElementById('myAudio');
-        audio.play();
-      });
-    </script>
-
-  </body>
-</li>
 
 <!-- partial:index.partial.html -->
 <!--images from http://haryarti.deviantart.com/gallery/-->
@@ -147,6 +81,75 @@
         </div>
       </div>
     </li>
+    <li>
+<li>
+<body>
+ 
+<title>Play ME!!!</title>
+  <style>
+.music-player {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100px;
+      text-align: center;
+      padding: 50px 60px;
+      background-color: #f2f2f2;
+      z-index: 999;
+   
+    }
+
+    .music-player.hidden {
+      top: -100px; /* Adjust the value to completely hide the music player */
+    }
+
+    .music-player audio {
+      width: 50%;
+    }
+
+    .container {
+      margin-top: 80px; /* Adjust the margin top value based on the height of the music player */
+    }
+  </style>
+</head>
+
+
+<body>
+  
+  <!-- Your website content goes here -->
+
+  <div class="music-player">
+    <audio id="audio-player" controls>
+      <source src="shallow.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script>
+    const audioPlayer = document.getElementById('audio-player');
+    audioPlayer.autoplay = true;  // Enable autoplay
+
+    // Example: Loop the audio
+    audioPlayer.addEventListener('ended', () => {
+      audioPlayer.currentTime = 0;  // Restart the audio
+      audioPlayer.play();
+    });
+  </script>
+<body>
+<!-- partial:index.partial.html -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.js"></script>
+<div id="confetti"></div>
+<!-- partial -->
+  <script  src="./script1.js"></script>
+<script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const audio = document.getElementById('myAudio');
+        audio.play();
+      });
+    </script>
+
+  </body>
+</li>
+</li>
     <li>
       <div class="flip">
         <div class="front-side"></div>
