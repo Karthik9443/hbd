@@ -54,6 +54,10 @@ a {
   overflow-y: scroll;
 }
 
+.spaced-text {
+  margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
 .call-button {
       padding: 30px 40px;
       font-size: 30px;
