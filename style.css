@@ -54,6 +54,11 @@ a {
   overflow-y: scroll;
 }
 
+.call-button {
+      padding: 30px 40px;
+      font-size: 30px;
+    }
+
 .gallery li {
   float: bottom;
   height: 100%;
