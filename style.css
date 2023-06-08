@@ -56,7 +56,7 @@ a {
 
 .spaced-text {
   margin-bottom: 80px; /* Add bottom margin for spacing */
-
+ margin-top: 80px;
 }
 
 .call-button {
