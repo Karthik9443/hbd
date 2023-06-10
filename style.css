@@ -184,7 +184,24 @@ font-size: 50px;
   background: #48C9B0;
 }
 
+.gallery li:nth-child(6) .front-side {
+   <video width="640" height="360" controls>
+    <source src="https://lh3.googleusercontent.com/eWDv1NtGPYX7_LFeCKm7AZHJ1k2y3Cgq472qYbaqBsggozus7kIr5XtTRDgiJh2yJ7tDuq_RRzAyAOsMxngR5cE-aJJjmjaLSMnoTQcNZA25KGDK3xBxi4NLP41Q35ybXRpRZdkvJQ=w2400" type="video/mp4">
+    <!-- Add additional <source> elements for different video formats -->
+    Your browser does not support the video tag.
+  </video>
+}
+.gallery li:nth-child(4) .loader {
+  border-top-color: #F1C40F;
+  border-left-color: #F1C40F;
+}
+.gallery li:nth-child(4) .text h3 {
+  color: #F1C40F;
+}
+.gallery li:nth-child(4) .text h3:after {
+  background: #F7DC6F;
 
+}
 .gallery .content {
   text-align: center;
   position: relative;
