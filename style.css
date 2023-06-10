@@ -191,14 +191,14 @@ font-size: 50px;
     Your browser does not support the video tag.
   </video>
 }
-.gallery li:nth-child(4) .loader {
+.gallery li:nth-child(6) .loader {
   border-top-color: #F1C40F;
   border-left-color: #F1C40F;
 }
-.gallery li:nth-child(4) .text h3 {
+.gallery li:nth-child(6) .text h3 {
   color: #F1C40F;
 }
-.gallery li:nth-child(4) .text h3:after {
+.gallery li:nth-child(6) .text h3:after {
   background: #F7DC6F;
 
 }
